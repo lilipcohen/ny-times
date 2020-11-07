@@ -13,6 +13,37 @@
     <header class = "container">
         <h1>New York Times Search</h1>
     </header>
+    <main>
+        <form>
+            <div class="form-group">
+                <label for="search-term">Search Term:</label>
+                <input type="text" class="form-control" id="search-term" aria-describedby="searchTerm">
+            </div>
+            <div class="form-group">
+                <label for="numberOfRecords">Number of Records to Retrieve:</label>
+                <select class="form-control" id="numberOfRecords">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Start Year</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">End Year</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-primary">Clear</button>
+        </form>
+
+    </main>
     <!-- Bootstrap jQuery and JS bundle w/ Popper.js -->
     <script 
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
